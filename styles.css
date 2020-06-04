@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+
+html,
+.container {
+  background-color: #f2ff29;
+  font-family: "Fjalla One", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+}
+
+.container {
+  display: table;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.words {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.words > div {
+  font-weight: 500;
+  font-size: 7em;
+}
+
+#line2 {
+  color: #f2ff29;
+  background-color: black;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
